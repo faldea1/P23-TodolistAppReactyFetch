@@ -3,3 +3,57 @@ body{
     color: white;
 }
 
+
+h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    border: none;
+    width: 100%;
+    background-color: black;
+    color:white;
+}
+
+
+ul li{
+    padding: 7px;
+    list-style: none;
+    border:1px solid white;
+}
+
+ul{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.MyActionsNumb{
+    font-size:medium;
+    color: yellow;
+}
+
+
+.mytitleicon{
+    padding-left: 10px;
+    color:blue;
+}
+
+span{
+    padding-left: 10px;
+    color:grey;
+}
+
+
+
+
+.nav-item{
+    font-weight: bold;
+    border: none;
+}
+
+
+
+

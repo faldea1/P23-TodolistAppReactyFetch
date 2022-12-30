@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Menu from './components/Menu';
-import Home from './pages/Home';
+import MytodolistFetch from './pages/Myfetchtodolist';
 import Mytodolist from './pages/Mytodolist';
+import injectContext from './store/AppContext';
 
 const Layout = () => {
     return (
@@ -10,7 +11,7 @@ const Layout = () => {
             <Menu />
             <Routes>
                 <Route path='/mytodolist' element={<Mytodolist />} />
-                <Route path='/' element={<Home />} />
+                <Route path='/' element={<MytodolistFetch />} />
             </Routes>
         </BrowserRouter>
     );
