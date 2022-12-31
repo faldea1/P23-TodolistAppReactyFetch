@@ -13,7 +13,7 @@ const Menu = () =>{
                 <Link className='nav-link' to='/mytodolist'>My Todolist</Link>
             </li>
             <li className='nav-item'>
-                <span className='nav-link disabled'>faldea</span>
+                <span className='nav-link disabled'>faldea1</span>
             </li>
         </ul>
     );
