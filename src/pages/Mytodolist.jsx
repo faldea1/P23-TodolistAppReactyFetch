@@ -2,8 +2,6 @@ import React from 'react';
 import { FaTrash, FaTasks } from 'react-icons/fa';
 import { useState } from 'react';
 
-
-
 const Mytodolist = () => {
 
     //Aplicar "controlled input": 

@@ -10,7 +10,7 @@ const Menu = () =>{
                 <Link className='nav-link' to='/'>My Todolist Fetch</Link>
             </li>
             <li className='nav-item'>
-                <Link className='nav-link' to='/mytodolist'>My Todolist</Link>
+                <Link className='nav-link' to='/mytodolist'>My First Todolist</Link>
             </li>
             <li className='nav-item'>
                 <span className='nav-link disabled'>faldea1</span>
