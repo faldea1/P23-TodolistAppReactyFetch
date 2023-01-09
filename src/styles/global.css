@@ -25,6 +25,11 @@ ul li{
     border:1px solid white;
 }
 
+.input{
+    list-style: none;
+    border:1px solid white;
+}
+
 ul{
     padding: 0;
     margin-bottom: 0;

@@ -7,12 +7,12 @@ const Menu = () =>{
     return (
         <ul className='nav justify-content-center'>
             <li className='nav-item'>
-                <Link className='nav-link' to='/'>My Todolist Fetch</Link>
+                <Link style={{color: 'chartreuse'}} className='nav-link' to='/'>My Todolist Fetch</Link>
             </li>
             <li className='nav-item'>
                 <Link className='nav-link' to='/mytodolist'>My First Todolist</Link>
             </li>
-            <li className='nav-item'>
+            <li className='nav-item'> 
                 <span className='nav-link disabled'>faldea1</span>
             </li>
         </ul>
